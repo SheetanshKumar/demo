@@ -1,14 +1,33 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "XDISCOVER": {
+        "allowancesType": "BOOLEAN",
+        "boolValue": {
+            "allowanceType": "BOOLEAN",
+            "boolValue": true,
+            "intValue": null,
+            "violationAction": "Warn"
+        },
+        "displayName": "Application Discovery",
+        "clusters":[
+            "Cluster-UUID-1",
+            "Cluster-UUID-2",
+            "Cluster-UUID-3",
+        ]
+    },
+    "MAX_TRIAL_PERIOD_DAYS": {
+        "allowancesType": "INTEGER_LIST",
+        "intValues": [
+            {
+                "allowanceType": "INTEGER",
+                "boolValue": null,
+                "intValue": 90,
+                "violationAction": "Warn"
+            }
+        ],
+        "displayName": "Trial period duration in days",
+        "clusters":[
+            "Cluster-UUID-1",
+            "Cluster-UUID-3",
+        ]
+    }
 }

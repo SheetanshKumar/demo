@@ -1,33 +1,33 @@
 {
-    "XDISCOVER": {
-        "allowancesType": "BOOLEAN",
-        "boolValue": {
-            "allowanceType": "BOOLEAN",
-            "boolValue": true,
-            "intValue": null,
-            "violationAction": "Warn"
-        },
-        "displayName": "Application Discovery",
-        "clusters":[
-            "Cluster-UUID-1",
-            "Cluster-UUID-2",
-            "Cluster-UUID-3",
-        ]
+  "XDISCOVER": {
+    "allowancesType": "BOOLEAN",
+    "boolValue": {
+      "allowanceType": "BOOLEAN",
+      "boolValue": true,
+      "intValue": null,
+      "violationAction": "Warn"
     },
-    "MAX_TRIAL_PERIOD_DAYS": {
-        "allowancesType": "INTEGER_LIST",
-        "intValues": [
-            {
-                "allowanceType": "INTEGER",
-                "boolValue": null,
-                "intValue": 90,
-                "violationAction": "Warn"
-            }
-        ],
-        "displayName": "Trial period duration in days",
-        "clusters":[
-            "Cluster-UUID-1",
-            "Cluster-UUID-3",
-        ]
-    }
+    "displayName": "Application Discovery",
+    "clusters": [
+      "Cluster-UUID-1",
+      "Cluster-UUID-2",
+      "Cluster-UUID-3"
+    ]
+  },
+  "MAX_TRIAL_PERIOD_DAYS": {
+    "allowancesType": "INTEGER_LIST",
+    "intValues": [
+      {
+        "allowanceType": "INTEGER",
+        "boolValue": null,
+        "intValue": 90,
+        "violationAction": "Warn"
+      }
+    ],
+    "displayName": "Trial period duration in days",
+    "clusters": [
+      "Cluster-UUID-1",
+      "Cluster-UUID-3"
+    ]
+  }
 }
